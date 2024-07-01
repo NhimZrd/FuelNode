@@ -185,13 +185,13 @@ After substituting your own values, paste this command into the server window an
 systemctl stop fueld
   ```
 
-3. Deleting the node service file:
+2. Deleting the node service file:
    
   ```
    rm /etc/systemd/system/fueld.service
   ```
 
-4. Deleting node folders:
+3. Deleting node folders:
 
    
   ```
@@ -201,12 +201,12 @@ systemctl stop fueld
   rm -rf .fuel_beta5
   ```
 
-5. Checking the logs:
+4. Checking the logs:
 
   ```
   journalctl -u fueld -f -o cat
   ```
 
-7. ```fuel-core run --help```
+5. ```fuel-core run --help```
 
 
